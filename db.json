@@ -1,18 +1,31 @@
-[
+{
+  "list": [
     {
-        "id": 1,
-        "content": "First Task"
+      "id": 1,
+      "content": "Post 1"
     },
     {
-        "id": 2,
-        "content": "Second Task"
+      "id": 2,
+      "content": "Post 1"
     },
     {
-        "id": 3,
-        "content": "Third Task"
-    },
-    {
-        "id": 4,
-        "content": "Fourth Task"
+      "id": 3,
+      "content": "Post 1"
     }
-]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
